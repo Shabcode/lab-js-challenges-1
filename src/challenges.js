@@ -143,7 +143,7 @@ function greatestProduct(arrays) {
   let maxProduct = 0;
 
   const rows = arrays.length;
-  const cols = matrix[0].length;
+  const cols = arrays[0].length;
 
   for(let i=0; i<rows;i++);{
     for(let j=0;j<cols-3;j++) {
